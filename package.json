@@ -1,0 +1,32 @@
+{
+  "name": "emekus-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env DEBUG=server:* ts-node-dev app",
+    "build": "tsc",
+    "start": "node --experimental-specifier-resolution=node ./dist/app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.31",
+    "bcryptjs": "^2.4.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "cross-env": "^7.0.3",
+    "ts-node-dev": "^1.1.8"
+  }
+}
